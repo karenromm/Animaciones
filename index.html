@@ -1,0 +1,32 @@
+<html><head></head>
+    <body>
+        <div id="contenedor"> 
+        <div id="box"> Me muevo
+        </div>
+    
+</div>
+      <script>
+        var t = setInterval(mover,300);
+var posX = 0;
+var box = document.getElementById("box");
+    
+
+function mover()
+{
+   posX+=5;
+   if(posX < 151)
+        {
+              box.style.left= posX+"px";
+        }
+    
+   else
+        {
+            posX = 0
+        }
+  
+}
+
+
+<script>
+  
+  </body></html>
